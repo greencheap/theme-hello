@@ -1,0 +1,22 @@
+{
+    "name": "nexis/easyeditor",
+    "type": "nexis-extension",
+    "version": "1.0.0",
+    "title": "Easy Editor",
+    "description": "A Shop extensions with a built-in comment system.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nexis",
+            "email": "info@nexis.com",
+            "homepage": "http://nexis.com"
+        }
+    ],
+    "extra": {
+        "icon": "icon.svg",
+        "scripts": "scripts.php"
+    },
+    "archive": {
+        "exclude": ["node_modules", "!/app"]
+    }
+}

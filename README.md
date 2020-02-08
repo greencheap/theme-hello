@@ -1,2 +1,2 @@
-# extension-fpd
+# extension-shop
 
