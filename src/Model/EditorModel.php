@@ -1,9 +1,9 @@
 <?php
-namespace Nexis\EasyEditor\Model;
+namespace GreenCheap\EasyEditor\Model;
 
-use Nexis\Database\ORM\ModelTrait;
-use Nexis\System\Model\DataModelTrait;
-use Nexis\User\Model\AccessModelTrait;
+use GreenCheap\Database\ORM\ModelTrait;
+use GreenCheap\System\Model\DataModelTrait;
+use GreenCheap\User\Model\AccessModelTrait;
 
 /**
  * @Entity(tableClass="@easyeditor_model")

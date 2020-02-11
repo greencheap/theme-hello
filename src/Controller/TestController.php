@@ -1,7 +1,7 @@
 <?php 
-namespace Nexis\EasyEditor\Controller;
+namespace GreenCheap\EasyEditor\Controller;
 
-use Nexis\Application as App;
+use GreenCheap\Application as App;
 use Symfony\Component\HttpFoundation\Response;
 /**
  * 

@@ -1,7 +1,7 @@
 <?php 
-namespace Nexis\EasyEditor\Controller\Admin;
-use Nexis\Application as App;
-use Nexis\EasyEditor\Model\EditorModel;
+namespace GreenCheap\EasyEditor\Controller\Admin;
+use GreenCheap\Application as App;
+use GreenCheap\EasyEditor\Model\EditorModel;
 /**
  * @Access(admin=true)
  * @Route("index" , name="index")

@@ -3,7 +3,7 @@ return [
     'name' => 'easyeditor',
 
     'autoload' => [
-        'Nexis\\EasyEditor\\' => 'src'
+        'GreenCheap\\EasyEditor\\' => 'src'
     ],
 
     'menu' => [
@@ -20,7 +20,7 @@ return [
         'easyeditor' => [
             'name' => '@easyeditor',
             'controller' => [
-                'Nexis\\EasyEditor\\Controller\\Admin\\ModelController'
+                'GreenCheap\\EasyEditor\\Controller\\Admin\\ModelController'
             ]
         ],
         'api/easyeditor' => [
