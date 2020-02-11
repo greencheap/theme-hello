@@ -11,8 +11,8 @@ return [
             'label' => 'Easy Editor',
             'icon' => 'easyeditor:icon.svg',
             'priority' => 101,
-            'url' => '',
-            'active' => ''
+            'url' => '@easyeditor/index',
+            'active' => '@easyeditor/index*'
         ]
     ],
 
@@ -20,7 +20,7 @@ return [
         'easyeditor' => [
             'name' => '@easyeditor',
             'controller' => [
-                
+                'Nexis\\EasyEditor\\Controller\\Admin\\ModelController'
             ]
         ],
         'api/easyeditor' => [

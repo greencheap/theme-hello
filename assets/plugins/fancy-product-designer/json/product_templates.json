@@ -1,0 +1,282 @@
+{
+	"shirts": {
+		"name": "T-Shirts",
+		"purchase_url": "https://elopage.com/s/radykal/fancy-product-designer-t-shirts-templates/payment",
+		"templates": [
+			{
+				"name": "T-Shirt Men Standard",
+				"images": [
+					"/assets/img/product-templates/shirts_men_standard_front.png",
+					"/assets/img/product-templates/shirts_men_standard_back.png"
+				],
+				"free": true,
+				"file": "shirts_men_standard.zip"
+			},
+			{
+				"name": "T-Shirt Men V-Neck",
+				"images": [
+					"/assets/img/product-templates/shirts_men_vneck_front.png",
+					"/assets/img/product-templates/shirts_men_vneck_back.png"
+				],
+				"file": "shirts_men_vneck.zip"
+			},
+			{
+				"name": "T-Shirt Women Standard",
+				"images": [
+					"/assets/img/product-templates/shirts_women_standard_shirt_front.png",
+					"/assets/img/product-templates/shirts_women_standard_shirt_back.png"
+				],
+				"file": "shirts_women_standard.zip"
+			},
+			{
+				"name": "T-Shirt Women Long",
+				"images": [
+					"/assets/img/product-templates/shirts_women_long_shirt_front.png",
+					"/assets/img/product-templates/shirts_women_long_shirt_back.png"
+				],
+				"file": "shirts_women_long.zip"
+			},
+			{
+				"name": "Jersey",
+				"images": [
+					"/assets/img/product-templates/shirts_jersey_front.png",
+					"/assets/img/product-templates/shirts_jersey_back.png"
+				],
+				"file": "shirts_jersey.zip"
+			}
+
+		]
+	},
+	"hoodies": {
+		"name": "Hoodies",
+		"purchase_url": "https://elopage.com/s/radykal/fancy-product-designer-hoodies-templates/payment",
+		"templates": [
+			{
+				"name": "Hoodie Men",
+				"images": [
+					"/assets/img/product-templates/hoodie_men_front.png",
+					"/assets/img/product-templates/hoodie_men_back.png"
+				],
+				"free": true,
+				"file": "hoodie_men.zip"
+			},
+			{
+				"name": "Hoodie Women",
+				"images": [
+					"/assets/img/product-templates/hoodie_women_front.png",
+					"/assets/img/product-templates/hoodie_women_back.png"
+				],
+				"file": "hoodie_women.zip"
+			},
+			{
+				"name": "Hoodie Duocolor",
+				"images": [
+					"/assets/img/product-templates/hoodie_duocolor_front.png",
+					"/assets/img/product-templates/hoodie_duocolor_back.png"
+				],
+				"file": "hoodie_duocolor.zip"
+			}
+		]
+	},
+	"phone-cases": {
+		"name": "Phone Cases",
+		"purchase_url": "https://elopage.com/s/radykal/fancy-product-designer-phone-cases-templates/payment",
+		"filters": ["Apple", "Samsung", "Google"],
+		"templates": [
+			{
+				"name": "iPhone 7/8",
+				"images": "/assets/img/product-templates/phonecase_iphone7.png",
+				"free": true,
+				"filter": ["Apple"],
+				"file": "phonecase_iphone_7_8.zip"
+			},
+			{
+				"name": "iPhone 7/8 with Camera",
+				"images": "/assets/img/product-templates/phonecase_iphone7_cam.png",
+				"free": true,
+				"filter": ["Apple"],
+				"file": "phonecase_iphone_7_8_cam.zip"
+			},
+			{
+				"name": "iPhone 7/8 Plus",
+				"images": "/assets/img/product-templates/phonecase_iphone78-plus.png",
+				"filter": ["Apple"],
+				"file": "phonecase_iphone_7_plus_8_plus.zip"
+			},
+			{
+				"name": "iPhone 7/8 Plus with Camera",
+				"images": "/assets/img/product-templates/phonecase_iphone78-plus_cam.png",
+				"filter": ["Apple"],
+				"file": "phonecase_iphone_7_plus_8_plus_cam.zip"
+			},
+			{
+				"name": "iPhone Xr",
+				"images": "/assets/img/product-templates/phonecase_iphone-xr.png",
+				"filter": ["Apple"],
+				"file": "phonecase_iphone_xr.zip"
+			},
+			{
+				"name": "iPhone Xr with Camera",
+				"images": "/assets/img/product-templates/phonecase_iphone-xr_cam.png",
+				"filter": ["Apple"],
+				"file": "phonecase_iphone_xr_cam.zip"
+			},
+			{
+				"name": "iPhone Xs",
+				"images": "/assets/img/product-templates/phonecase_iphone-xs.png",
+				"filter": ["Apple"],
+				"file": "phonecase_iphone_xs.zip"
+			},
+			{
+				"name": "iPhone Xs with Camera",
+				"images": "/assets/img/product-templates/phonecase_iphone-xs_cam.png",
+				"filter": ["Apple"],
+				"file": "phonecase_iphone_xs_cam.zip"
+			},
+			{
+				"name": "iPad Pro",
+				"images": "/assets/img/product-templates/phonecase_ipad.png",
+				"filter": ["Apple"],
+				"file": "phonecase_ipad_pro.zip"
+			},
+			{
+				"name": "iPad Pro with Camera",
+				"images": "/assets/img/product-templates/phonecase_ipad_cam.png",
+				"filter": ["Apple"],
+				"file": "phonecase_ipad_pro_cam.zip"
+			},
+			{
+				"name": "Samsung S8 / S8 Plus",
+				"images": "/assets/img/product-templates/phonecase_samsung_s8.png",
+				"free": true,
+				"filter": ["Samsung"],
+				"file": "phonecase_samsung_s8_s8_plus.zip"
+			},
+			{
+				"name": "Samsung S9",
+				"images": "/assets/img/product-templates/phonecase_samsung_s9.png",
+				"filter": ["Samsung"],
+				"file": "phonecase_samsung_s9.zip"
+			},
+			{
+				"name": "Samsung S9 Plus",
+				"images": "/assets/img/product-templates/phonecase_samsung_s9_plus.png",
+				"filter": ["Samsung"],
+				"file": "phonecase_samsung_s9_plus.zip"
+			},
+			{
+				"name": "Samsung Note 9",
+				"images": "/assets/img/product-templates/phonecase_samsung_note_9.png",
+				"filter": ["Samsung"],
+				"file": "phonecase_samsung_note_9.zip"
+			},
+			{
+				"name": "Google Pixel 3",
+				"images": "/assets/img/product-templates/phonecase_google_pixel_3.png",
+				"filter": ["Google"],
+				"file": "phonecase_google_pixel_3.zip"
+			},
+			{
+				"name": "Google Pixel 3 XL",
+				"images": "/assets/img/product-templates/phonecase_google_pixel_3xl.png",
+				"filter": ["Google"],
+				"file": "phonecase_google_pixel_3xl.zip"
+			}
+		]
+	},
+	"business_cards": {
+		"name": "Business Cards",
+		"purchase_url": null,
+		"templates": [
+			{
+				"name": "Standard Business Card US 3,5x2inch / 89x51mm",
+				"images": "/assets/img/product-templates/bc_89x51.png",
+				"free": true,
+				"file": "bc_89x51.zip"
+			},
+			{
+				"name": "Standard Business Card EU 3,35x2,2inch / 85x55mm",
+				"images": "/assets/img/product-templates/bc_85x55.png",
+				"free": true,
+				"file": "bc_85x55.zip"
+			},
+			{
+				"name": "Micro Business Card EU 3x1inch / 76x25mm",
+				"images": "/assets/img/product-templates/bc_76x25.png",
+				"free": true,
+				"file": "bc_76x25.zip"
+			},
+			{
+				"name": "Business Card Square 2,25x2,25inch / 57x57mm",
+				"images": "/assets/img/product-templates/bc_57x57.png",
+				"free": true,
+				"file": "bc_57x57.zip"
+			},
+			{
+				"name": "Business Card Folded 3,25x2inch / 83x52mm",
+				"images": "/assets/img/product-templates/bc_83x52.png",
+				"free": true,
+				"file": "bc_folded_83x52.zip"
+			}
+		]
+	},
+	"merchandise": {
+		"name": "Merchandise",
+		"purchase_url": "https://elopage.com/s/radykal/fancy-product-designer-merchandise-templates/payment",
+		"templates": [
+			{
+				"name": "Cap Fabric",
+				"images": [
+					"/assets/img/product-templates/merch_cap_fabric_front.png",
+					"/assets/img/product-templates/merch_cap_fabric_side.png"
+				],
+				"free": true,
+				"file": "merch_cap_fabric.zip"
+			},
+			{
+				"name": "Cap Leather",
+				"images": [
+					"/assets/img/product-templates/merch_cap_leather_front.png",
+					"/assets/img/product-templates/merch_cap_leather_side.png"
+				],
+				"file": "merch_cap_leather.zip"
+			},
+			{
+				"name": "Pillow",
+				"images": [
+					"/assets/img/product-templates/merch_pillow_front.png",
+					"/assets/img/product-templates/merch_pillow_back.png"
+				],
+				"file": "merch_pillow.zip"
+			},
+			{
+				"name": "Coffee Cup",
+				"images": [
+					"/assets/img/product-templates/merch_cup.png"
+				],
+				"file": "merch_coffee_cup.zip"
+			},
+			{
+				"name": "Button",
+				"images": [
+					"/assets/img/product-templates/merch_button.png"
+				],
+				"file": "merch_button.zip"
+			},
+			{
+				"name": "Mousepad",
+				"images": [
+					"/assets/img/product-templates/merch_mousepad.png"
+				],
+				"file": "merch_mousepad.zip"
+			},
+			{
+				"name": "Drawstring Gym Bag",
+				"images": [
+					"/assets/img/product-templates/merch_drawstring_gym_bag.png"
+				],
+				"file": "merch_drawstring_gym_bag.zip"
+			}
+		]
+	}
+}
