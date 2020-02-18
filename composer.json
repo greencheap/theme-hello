@@ -1,9 +1,9 @@
 {
-    "name": "greencheap/easyeditor",
+    "name": "greencheap/draft",
     "type": "greencheap-extension",
     "version": "1.0.0",
-    "title": "Easy Editor",
-    "description": "A Shop extensions with a built-in comment system.",
+    "title": "Extension Draft",
+    "description": "GreenCheap Extension Draft",
     "license": "MIT",
     "authors": [
         {

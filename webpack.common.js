@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        "admin/editor-model-edit":"./app/views/admin/editor-model-edit"
+        //
     },
     output: {
         path: path.resolve(__dirname, './app/bundle'),

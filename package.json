@@ -1,23 +1,25 @@
 {
-  "name": "extension-shop",
+  "name": "extension-draft",
   "scripts": {
     "webpack": "webpack --watch --colors --config webpack.dev.js",
     "webpack-build": "webpack --colors --config webpack.prod.js",
+    "gulp-css": "gulp css",
     "archive": "yarn webpack-build && composer archive --format=zip"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-header": "^2.0.9",
+    "gulp-less": "^4.0.1",
     "vue-loader": "^15.8.3",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-merge": "^4.2.2"
-  },
-  "dependencies": {
-    "jquery": "^3.4.1",
-    "jquery-ui": "^1.12.1"
   }
 }
