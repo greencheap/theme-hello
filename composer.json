@@ -1,9 +1,9 @@
 {
-    "name": "greencheap/draft",
-    "type": "greencheap-extension",
+    "name": "greencheap/theme-greencheap",
+    "type": "greencheap-theme",
     "version": "1.0.0",
-    "title": "Extension Draft",
-    "description": "GreenCheap Extension Draft",
+    "title": "GreenCheap Default Theme",
+    "description": "Eski sistem ile geliştirilmiş greencheap main temadır.",
     "license": "MIT",
     "authors": [
         {

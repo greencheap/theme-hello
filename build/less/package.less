@@ -1,0 +1,133 @@
+@global-color:                                  #191919;
+@global-emphasis-color:                         #000;
+@global-muted-color:                            #788691;
+
+@global-link-color:                             #197869;
+@global-link-hover-color:                       darken(@global-link-color , 5%);
+
+@global-inverse-color:                          #fff;
+
+//
+// Backgrounds
+//
+
+@global-background:                             #fff;
+
+@global-muted-background:                       #F0F9FA;
+@global-primary-background:                     #2add61;
+@global-secondary-background:                   #191919;
+
+@global-success-background:                     #32d296;
+@global-warning-background:                     #faa05a;
+@global-danger-background:                      #f0506e;
+
+@global-small-box-shadow:                       0 2px 50px rgba(0, 0, 0, 0.05);
+@global-medium-box-shadow:                      0 2px 50px rgba(0, 0, 0, 0.08);
+@global-large-box-shadow:                       0 14px 25px rgba(0,0,0,0.16);
+@global-xlarge-box-shadow:                      0 28px 50px rgba(0,0,0,0.16);
+
+.tm-iconnav{
+    margin-left:20px;
+}
+
+.tm-iconnav::before{
+    display: block;
+    content: '';
+    width: 1px;
+    height: 25px;
+    background: darken(@global-muted-background , 10%);
+    margin-right: 20px;
+}
+
+.tm-iconnav > li > a  {
+    margin-right:10px;
+    padding:15px;
+    background:@global-inverse-color;
+    border-radius: 30%;
+    box-shadow: @global-large-box-shadow;
+    transition: all .3s ease-in-out;
+}
+
+.tm-iconnav > li > a:hover,
+.tm-iconnav > li > a:focus,
+.tm-iconnav > li > a:active
+{
+    box-shadow: @global-small-box-shadow;
+}
+
+@tm-facebook:#0084ff;
+.tm-icon-facebook{
+    background:linear-gradient(80deg, @tm-facebook, lighten(@tm-facebook , 15%)) !important;
+    color:@global-inverse-color !important;
+}
+.tm-icon-facebook:hover,
+.tm-icon-facebook:focus,
+.tm-icon-facebook:active
+{
+    opacity: 0.9;
+}
+
+//instagram
+@tm-instagram:#e4405f;
+.tm-icon-instagram{
+    background:linear-gradient(80deg, @tm-instagram, lighten(@tm-instagram , 15%)) !important;
+    color:@global-inverse-color !important;
+}
+.tm-icon-instagram:hover,
+.tm-icon-instagram:focus,
+.tm-icon-instagram:active
+{
+    opacity: 0.9;
+}
+
+//twitter
+@tm-twitter:#55acee;
+.tm-icon-twitter{
+    background:linear-gradient(80deg, @tm-twitter, lighten(@tm-twitter , 15%)) !important;
+    color:@global-inverse-color !important;
+}
+.tm-icon-twitter:hover,
+.tm-icon-twitter:focus,
+.tm-icon-twitter:active
+{
+    opacity: 0.9;
+}
+
+//gitter
+@tm-gitter:#ed1965;
+.tm-icon-gitter{
+    background:linear-gradient(80deg, @tm-gitter, lighten(@tm-gitter , 15%)) !important;
+    color:@global-inverse-color !important;
+}
+.tm-icon-gitter:hover,
+.tm-icon-gitter:focus,
+.tm-icon-gitter:active
+{
+    opacity: 0.9;
+}
+
+//navbar hemen başla butonu
+.tm-navbar-button
+{
+    transition: all .3s ease-in-out;
+    box-shadow: @global-large-box-shadow;
+}
+.tm-navbar-button:hover,
+.tm-navbar-button:focus,
+.tm-navbar-button:active
+{
+    box-shadow: @global-xlarge-box-shadow;
+}
+.tm-navbar-button > span{
+    margin-right:20px;
+    margin-left:0;
+    transition: all .2s ease-in;
+}
+.tm-navbar-button:hover > span,
+.tm-navbar-button:active > span,
+.tm-navbar-button:focus > span
+{
+    margin-right:15px;
+    margin-left:5px;
+    fill:yellow;
+}

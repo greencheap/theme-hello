@@ -12,7 +12,7 @@ function css() {
     .pipe(dest('dist/css'))
 }
 
-watch(['build/less/package.less'], {} , parallel(css));
+watch(['build/less/**/*.less'], {} , parallel(css));
 
 exports.css = css;
 exports.default = parallel(css);

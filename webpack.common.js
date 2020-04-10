@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        //
+        "main.theme":"./app/main.theme"
     },
     output: {
         path: path.resolve(__dirname, './app/bundle'),

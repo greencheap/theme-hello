@@ -1,5 +1,9 @@
 <?php
 return [
-    'name' => 'draft'
+    'name' => 'theme-greencheap',
+
+    'menus' => [
+        'main' => 'Main'
+    ]
 ];
 ?>
