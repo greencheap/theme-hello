@@ -1,8 +1,17 @@
-<div class="uk-navbar-container">
+<?php 
+    $hero = $hero ?? false;
+    $inverse = $hero ? ($inverse ?? ''):'';
+?>
+
+<?php if($hero): ?> 
+    <div class="uk-position-top">
+<?php endif ?>
+
+<div class="uk-navbar-container <?= $hero ? 'uk-navbar-transparent '.$inverse:'' ?>">
     <nav class="uk-container uk-container-xlarge" uk-navbar>
         <div class="uk-navbar-left">
             <a class="uk-navbar-brand uk-navbar-item" href="<?= $view->url()->get() ?>">
-                <img src="<?= $app['url']->getStatic('theme:assets/logo-green.svg') ?>" alt="GreenCheap Logo" width="200">
+                <img src="<?= $inverse == 'uk-light' ? $app['url']->getStatic('theme:assets/logo-white.svg'):$app['url']->getStatic('theme:assets/logo-green.svg') ?>" alt="GreenCheap Logo" width="200">
             </a>
         </div>
         <div class="uk-navbar-center">
@@ -17,9 +26,13 @@
             </ul>
         </div>
         <div class="uk-navbar-right">
-            <a class="uk-button uk-button-default uk-button-large tm-navbar-button">
+            <a class="uk-button tm-navbar-button uk-button-large">
                 <span uk-icon="bolt"></span>Hemen Başla
             </a>
         </div>
     </nav>
 </div>
+
+<?php if($hero): ?> 
+    </div>
+<?php endif ?>

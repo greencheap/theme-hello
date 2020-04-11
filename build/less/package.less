@@ -111,6 +111,8 @@
 {
     transition: all .3s ease-in-out;
     box-shadow: @global-large-box-shadow;
+    color:@global-inverse-color !important;
+    background:@global-secondary-background !important;
 }
 .tm-navbar-button:hover,
 .tm-navbar-button:focus,
@@ -130,4 +132,10 @@
     margin-right:15px;
     margin-left:5px;
     fill:yellow;
+}
+.tm-navbar-dropdown > li > a{
+    color:@global-color !important;
+}
+.tm-navbar-dropdown > li > a:hover{
+    color:lighten(@global-color , 30%) !important;
 }

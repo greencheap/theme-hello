@@ -14,7 +14,7 @@
 
                 <?php if( $node->getDepth() === 1 ): ?>
                     <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <ul class="uk-nav uk-navbar-dropdown-nav tm-navbar-dropdown">
                 <?php endif ?>
 
                 <?= $view->render('defined/menu/navbar-nav.php', ['root' => $node]) ?>

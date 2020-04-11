@@ -3,17 +3,18 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        "main.theme":"./app/main.theme"
+        'main.theme':'./app/main.theme',
+        'theme/node-hero':'./app/components/theme/node-hero.vue'
     },
     output: {
         path: path.resolve(__dirname, './app/bundle'),
-        filename: "[name].js"
+        filename: '[name].js'
     },
     module: {
         rules: [
             {
                 test: /\.vue$/,
-                loader: "vue-loader"
+                loader: 'vue-loader'
             },
             {
                 test: /\.js$/,

@@ -9,6 +9,6 @@
         <?php $view->script('theme-javascript' , 'theme:app/bundle/main.theme.js' , 'vue') ?>
     </head>
     <body>
-        <?= $view->render('layout/navbar/default.php') ?>
+        <?= $view->render('section/hero.php') ?>
     </body>
 </html>
