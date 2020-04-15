@@ -1,0 +1,8 @@
+{
+    "requirements":{
+        "oauth2":"1.0.0"
+    },
+    "compatible":{
+        "blog":"1.0.0"
+    }
+}
