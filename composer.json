@@ -1,7 +1,7 @@
 {
     "name": "greencheap/theme-greencheap",
     "type": "greencheap-theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "title": "GreenCheap Default Theme",
     "description": "Eski sistem ile geliştirilmiş greencheap main temadır.",
     "license": "MIT",
