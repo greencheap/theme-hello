@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        'main.theme':'./app/main.theme',
+        'theme':'./app/theme',
         'theme/node-hero':'./app/components/theme/node-hero.vue'
     },
     output: {
@@ -24,7 +24,7 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     'vue-style-loader',
-                    'css-loader'
+                    'css-loader',
                 ]
             }
         ]

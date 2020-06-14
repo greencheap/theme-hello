@@ -6,7 +6,7 @@
         "archive": "yarn webpack-build && composer archive --format=zip",
         "greencheap-compile": "node ./greencheap.js"
     },
-    "watch":{
+    "watch": {
         "greencheap-compile": {
             "extensions": "less"
         }
@@ -21,6 +21,7 @@
         "eslint-plugin-vue": "^6.2.2",
         "greencheap-uikit": "^1.0.11",
         "npm-watch": "^0.6.0",
+        "style-loader": "^1.2.1",
         "vue-loader": "^15.8.3",
         "vue-style-loader": "^4.1.2",
         "vue-template-compiler": "^2.6.11",

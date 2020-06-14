@@ -11,7 +11,7 @@
     <nav class="uk-container uk-container-xlarge" uk-navbar>
         <div class="uk-navbar-left">
             <a class="uk-navbar-brand uk-navbar-item" href="<?= $view->url()->get() ?>">
-                <img src="<?= $inverse == 'uk-light' ? $app['url']->getStatic('theme:assets/logo-white.svg'):$app['url']->getStatic('theme:assets/logo-green.svg') ?>" alt="GreenCheap Logo" width="200">
+                <img src="<?= $inverse == 'uk-light' ? $app['url']->getStatic('theme:assets/images/logo-white.svg'):$app['url']->getStatic('theme:assets/images/logo-green.svg') ?>" alt="GreenCheap Logo" width="200">
             </a>
         </div>
         <div class="uk-navbar-center">
