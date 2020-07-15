@@ -1,7 +1,7 @@
 {
     "name": "greencheap/theme-build",
     "type": "greencheap-theme",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "title": "GreenCheap Build Theme",
     "description": "GreenCheap tema build taslağı, bu taslak ile kurallara uygun tema oluşturabilirsiniz",
     "license": "MIT",
@@ -13,8 +13,7 @@
         }
     ],
     "extra": {
-        "icon": "icon.svg",
-        "scripts": "scripts.php"
+        "image": "image.jog"
     },
     "archive": {
         "exclude": ["node_modules", "!/app"]
