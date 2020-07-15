@@ -3550,7 +3550,7 @@ node-libs-browser@^2.2.1:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
-nodemon@^1.12.1, nodemon@^1.18.7:
+nodemon@^1.12.1:
   version "1.19.4"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.19.4.tgz#56db5c607408e0fdf8920d2b444819af1aae0971"
   integrity sha512-VGPaqQBNk193lrJFotBU8nvWZPqEZY2eIzymy2jjY0fJ9qIsxA0sxQ8ATPl0gZC645gijYEc1jtZvpS8QWzJGQ==
@@ -3591,14 +3591,6 @@ npm-run-path@^2.0.0:
   integrity sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=
   dependencies:
     path-key "^2.0.0"
-
-npm-watch@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/npm-watch/-/npm-watch-0.6.0.tgz#c00550ddd14fd1dcdd46d4a4cf60a07ba92c389e"
-  integrity sha512-qt3jZd8gKX45m5czKv/CsxzWDMgblu/meL5PefeoViq07e8l7+DBNC8RgHAI0DfA+jJq2n/pJLaNL4yfHR+0qw==
-  dependencies:
-    nodemon "^1.18.7"
-    through2 "^2.0.0"
 
 "npm-watch@github:dasdeck/npm-watch#46a8a36c61cfd998ed53d27f62eaf79e11c395b4":
   version "0.3.0"

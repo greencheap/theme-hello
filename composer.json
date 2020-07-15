@@ -1,9 +1,9 @@
 {
-    "name": "greencheap/theme-greencheap",
+    "name": "greencheap/theme-build",
     "type": "greencheap-theme",
     "version": "1.0.1",
-    "title": "GreenCheap Default Theme",
-    "description": "Eski sistem ile geliştirilmiş greencheap main temadır.",
+    "title": "GreenCheap Build Theme",
+    "description": "GreenCheap tema build taslağı, bu taslak ile kurallara uygun tema oluşturabilirsiniz",
     "license": "MIT",
     "authors": [
         {

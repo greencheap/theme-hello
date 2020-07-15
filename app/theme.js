@@ -1,6 +1,15 @@
 import UIkit from "uikit"
-import Icons from "../dist/js/uikit-icons-greencheap"
-import Theme from "../dist/css/uikit.greencheap.css"
+/**
+ * Icons
+ * import Icons from "../dist/js/uikit-icons-my-theme"
+ * UIkit.use(Icons);
+ */
 
-UIkit.use(Icons);
-UIkit.notification('Hello world.');
+/**
+ * CSS
+ * import Theme2 from "../dist/css/uikit.my-theme.min.css"
+ */
+
+/**
+ * CustomJs
+ */

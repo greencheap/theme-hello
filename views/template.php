@@ -7,6 +7,6 @@
         <?php $view->script('theme' , 'theme:app/bundle/theme.js') ?>
     </head>
     <body>
-        <?= $view->render('section/hero.php') ?>
+        <?= $view->render('content') ?>
     </body>
 </html>
