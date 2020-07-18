@@ -1,7 +1,7 @@
 {
     "name": "greencheap/theme-build",
     "type": "greencheap-theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "title": "GreenCheap Build Theme",
     "description": "GreenCheap tema build taslağı, bu taslak ile kurallara uygun tema oluşturabilirsiniz",
     "license": "MIT",
