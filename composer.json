@@ -13,7 +13,7 @@
         }
     ],
     "extra": {
-        "image": "image.jog"
+        "image": "image.jpg"
     },
     "archive": {
         "exclude": ["node_modules", "!/app"]
