@@ -3,3 +3,6 @@
 *.zip
 *.log
 /dist
+.DS_Store
+themes.json
+/assets/dist
