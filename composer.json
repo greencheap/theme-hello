@@ -1,9 +1,9 @@
 {
-    "name": "greencheap/theme-build",
+    "name": "greencheap/pro-theme-main",
     "type": "greencheap-theme",
     "version": "1.0.2",
-    "title": "GreenCheap Build Theme",
-    "description": "GreenCheap tema build taslağı, bu taslak ile kurallara uygun tema oluşturabilirsiniz",
+    "title": "GreenCheap Pro Theme Main",
+    "description": "GreenCheap pro tema main taslağı, bu taslak ile kurallara uygun tema oluşturabilirsiniz",
     "license": "MIT",
     "authors": [
         {
@@ -18,5 +18,8 @@
     },
     "archive": {
         "exclude": ["node_modules", "!/app"]
+    },
+    "require":{
+        "symfony/yaml": "^5.2@dev"
     }
 }

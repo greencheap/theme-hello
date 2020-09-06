@@ -1,0 +1,1 @@
+<?= $view->render($params->get('navbar.style')) ?>

@@ -1,5 +1,5 @@
 {
-    "name": "theme-build",
+    "name": "pro.theme.main",
     "scripts": {
         "install": "yarn compile",
         "compile": "gulp compileLess",
