@@ -5,11 +5,11 @@
     "title": "GreenCheap Build Theme",
     "description": "GreenCheap tema build taslağı, bu taslak ile kurallara uygun tema oluşturabilirsiniz",
     "license": "MIT",
-    "authors": [
+      "authors": [
         {
             "name": "GreenCheap",
             "email": "support@greencheap.net",
-            "homepage": "http://greencheap.net"
+            "homepage": "https://greencheap.net"
         }
     ],
     "homepage": "http://greencheap.net",
