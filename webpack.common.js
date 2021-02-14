@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        'theme':'./app/theme'
+       'app':'./app/views/app',
     },
     output: {
         path: path.resolve(__dirname, './app/bundle'),
@@ -20,10 +20,11 @@ module.exports = {
                 loader: 'babel-loader'
             },
             {
-                test: /\.css$/,
+                test: /\.less$/,
                 use: [
-                    'vue-style-loader',
-                    'css-loader',
+                    {loader: "style-loader"},
+                    {loader: "css-loader"},
+                    {loader: "less-loader"}
                 ]
             }
         ]

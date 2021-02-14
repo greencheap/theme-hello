@@ -1,18 +1,17 @@
 {
     "name": "greencheap/theme-build",
     "type": "greencheap-theme",
-    "version": "1.0.2",
-    "title": "GreenCheap Build Theme",
-    "description": "GreenCheap tema build taslağı, bu taslak ile kurallara uygun tema oluşturabilirsiniz",
+    "version": "1.0.3",
+    "title": "Your Theme name",
+    "description": "Your Description",
     "license": "MIT",
     "authors": [
         {
             "name": "GreenCheap",
             "email": "support@greencheap.net",
-            "homepage": "http://greencheap.net"
+            "homepage": "https://greencheap.net"
         }
     ],
-    "homepage": "http://greencheap.net",
     "extra": {
         "image": "image.jpg"
     },

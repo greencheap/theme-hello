@@ -7,3 +7,4 @@
 themes.json
 /assets/dist
 .vscode
+/app/bundle/
