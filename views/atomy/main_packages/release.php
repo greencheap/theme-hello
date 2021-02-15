@@ -19,8 +19,8 @@
             <p class="uk-text-justify">
                 <strong>GreenCheap</strong> is preparing to download. Your support is very important to us. If you didn't give a star to our project on Github, you can start it right now. Stars is very important to us. You can follow our social media accounts and if you have not yet registered on our site, you can register now.
             </p>
-            <ul class="uk-list">
-                <li><a href="<?= 'hello' ?>"><i uk-icon="file-text" class="uk-margin-small-right"></i>Documentation</a></li>
+            <ul class="uk-nav uk-nav-default">
+                <li><a href="<?= $view->url('@docs') ?>"><i uk-icon="file-text" class="uk-margin-small-right"></i>Documentation</a></li>
                 <li><a href="https://github.com/greencheap/greencheap" target="_blank" ref="nofollow"><i uk-icon="github" class="uk-margin-small-right"></i>Github</a></li>
                 <li><a href="https://twitter.com/greencheapnet" target="_blank" ref="nofollow"><i uk-icon="twitter" class="uk-margin-small-right"></i>Twitter</a></li>
                 <li><a href="https://www.linkedin.com/company/greencheapnet/" target="_blank" ref="nofollow"><i uk-icon="linkedin" class="uk-margin-small-right"></i>Linkedin</a></li>

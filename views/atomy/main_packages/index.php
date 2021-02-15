@@ -1,9 +1,9 @@
 <div>
-    <table class="uk-table">
+    <table class="uk-table uk-table-hover">
         <thead>
             <tr>
                 <th><?= __('Package Version') ?></th>
-                <th class="uk-text-center"><?= __('Status') ?></th>
+                <th class="uk-text-left"><?= __('Status') ?></th>
                 <th><?= __('Released') ?></th>
                 <th><?= __('PHP Version') ?></th>
             </tr>
@@ -20,8 +20,8 @@
                     }
                     ?>
                     <td><a href="<?= $pkg->getUrl() ?>"><?= sprintf('GreenCheap %s', $pkg->version) ?></a></td>
-                    <td class="uk-text-center"><span class="<?= $status ?>"><?= $pkg->getStatus() ?></span></td>
-                    <td><span><?= $pkg->date->format('d F Y') ?></span></td>
+                    <td class="uk-text-left"><span class="<?= $status ?>"><?= $pkg->getStatus() ?></span></td>
+                    <td><span><?= $pkg->date->format('F Y') ?></span></td>
                     <td><span><?= $pkg->php_version ?></span></td>
                 </tr>
             <?php endforeach; ?>

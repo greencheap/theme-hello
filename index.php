@@ -1,6 +1,6 @@
 <?php
 return [
-    'name' => 'theme-build',
+    'name' => 'theme-hello',
 
     'menus' => [
         'main' => 'Main',
@@ -51,7 +51,8 @@ return [
                 return;
             }
             $params = $view->params;
-            //$params['my_custom_conf'] = 'GreenCheap';
+            $userConfig = $app['config']->get('system/user');
+            $params['registration_permit'] = $userConfig->get('registration') != 'admin' && $app['user']->isAnonymous() ? true:false;
         }
     ]
 ];

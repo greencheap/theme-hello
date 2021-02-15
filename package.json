@@ -1,5 +1,5 @@
 {
-    "name": "theme-build",
+    "name": "theme-hello",
     "scripts": {
         "webpack": "webpack --colors --config webpack.dev.js",
         "webpack-watch": "webpack --watch --colors --config webpack.dev.js",

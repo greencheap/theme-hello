@@ -47,6 +47,9 @@
                     </select>
                 </div>
             </div>
+            <div class="uk-alert-warning" uk-alert>
+                {{ 'Title Conf: It should only be used for the page plugin.' | trans }}
+            </div>
             <div>
                 <div class="uk-margin">
                     <label class="uk-form-label">{{ 'Title Hide' | trans }}</label>

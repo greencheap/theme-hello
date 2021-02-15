@@ -1,9 +1,9 @@
 {
-    "name": "greencheap/theme-build",
+    "name": "greencheap/theme-hello",
     "type": "greencheap-theme",
-    "version": "1.0.3",
-    "title": "Your Theme name",
-    "description": "Your Description",
+    "version": "1.0.0",
+    "title": "Theme Hello",
+    "description": "Open source and free theme developed for use on the GreenCheap official website",
     "license": "MIT",
       "authors": [
         {
