@@ -4,10 +4,110 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?= $view->render('head') ?>
-        <?php $view->style('theme' , 'theme:dist/css/uikit.my-theme.min.css') ?>
-        <?php $view->script('theme' , 'theme:app/bundle/theme.js') ?>
+        <?php $view->script('theme' , 'theme:app/bundle/app.js') ?>
     </head>
     <body>
-        <?= $view->render('content') ?>
+        <header class="uk-navbar-container">
+            <div class="uk-container uk-container-expand" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" href="<?= $view->url()->get() ?>">
+                        <?php if ($params['logo']) : ?>
+                            <img width="150px" src="<?= $this->escape($params['logo']) ?>" alt="<?= $params['title'] ?>">
+                        <?php else : ?>
+                            <?= $params['title'] ?>
+                        <?php endif ?>
+                    </a>
+                </div>
+
+                <?php if($view->menu()->exists('main')): ?>
+                    <div class="uk-navbar-center">
+                        <?= $view->menu('main', 'defined/menu/navbar-nav.php') ?>
+                    </div>
+                <?php endif ?> 
+
+                <div class="uk-navbar-right">
+                    <?php if($view->position()->exists('navbar')): ?>
+                        <ul class="uk-grid-small uk-navbar-item uk-visible@m" uk-grid>
+                            <?= $view->position('navbar', 'positions/position-navbar.php') ?>
+                        </ul>
+                    <?php endif ?>
+                    <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#tm-mobile-navbar" uk-toggle></a>
+                </div>
+            </div>
+        </header>
+
+        <div id="tm-mobile-navbar" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <a class="uk-logo" href="<?= $view->url()->get() ?>">
+                    <?php if ($params['logo']) : ?>
+                        <img width="150px" src="<?= $this->escape($params['logo']) ?>" alt="<?= $params['title'] ?>">
+                    <?php else : ?>
+                        <?= $params['title'] ?>
+                    <?php endif ?>
+                </a>
+                
+                <?php if($view->menu()->exists('main')): ?>
+                    <div class="uk-margin">
+                        <?= $view->menu('main', 'defined/menu/offcanvas-nav.php') ?>
+                    </div>
+                <?php endif ?>
+
+                <?php if($view->position()->exists('navbar')): ?>
+                    <ul class="uk-list">
+                        <?= $view->position('navbar', 'positions/position-navbar.php') ?>
+                    </ul>
+                <?php endif ?>
+
+                <?php if($view->menu()->exists('others')): ?>
+                    <hr>
+                    <div class="uk-margin">
+                        <?= $view->menu('others', 'defined/menu/offcanvas-nav.php') ?>
+                    </div>
+                <?php endif ?>
+            </div>
+        </div>
+
+        <?php if($view->position()->exists('top')): ?>
+            <?= $view->position('top', 'positions/position-default.php') ?>
+        <?php endif ?> 
+
+        <?php 
+            $section = [
+                $params['section'], $params['sectionSize'], $params['contentAlign']
+            ];
+            $image = null;
+            if($params['sectionImage']){
+                $section[] = 'uk-background-image uk-background-cover';
+                $imageUrl = $view->url()->getStatic($params['sectionImage']);
+                $image = "data-src='$imageUrl' uk-img";
+            }
+
+            $title = implode(' ', [$params['titleColor'], $params['titleClass']]);
+        ?>
+        <section class="<?= implode(' ', $section) ?>" <?= $image ?>>
+            <div class="uk-container">
+                <div uk-grid>
+                    <div class="uk-width-expand@s">
+                        <?= $view->render('content') ?>
+                    </div>
+                    <?php if($view->position()->exists('sidebar')): ?>
+                    <div class="uk-width-medium@m">
+                        <ul class="uk-list uk-list-large uk-list-divider">
+                            <?= $view->position('sidebar', 'positions/position-sidebar.php') ?>
+                        </ul>
+                    </div>
+                    <?php endif ?> 
+                </div>
+            </div>
+        </section>
+
+        <?php if($view->position()->exists('bottom')): ?>
+            <?= $view->position('bottom', 'positions/position-default.php') ?>
+        <?php endif ?> 
+
+        <?php if($view->position()->exists('footer')): ?>
+            <?= $view->position('footer', 'positions/position-default.php') ?>
+        <?php endif ?> 
     </body>
 </html>

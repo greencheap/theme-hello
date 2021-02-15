@@ -1,0 +1,66 @@
+@navbar-background:                             @global-background;
+@navbar-nav-item-height:                        80px;
+.hook-navbar(){
+    box-shadow: @global-small-box-shadow;
+}
+
+@offcanvas-bar-background:                      @global-background;
+@offcanvas-bar-color-mode:                      darken;
+
+// Menu Widget
+.tm-nav-default > li > a{
+    padding: 10px;
+    background: @global-background;
+    transition: all 0.3s ease-in-out;
+    font-size: @global-font-size;
+}
+
+.tm-nav-default > li > a:hover,
+.tm-nav-default > li.uk-active > a{
+    background: darken(@global-muted-background , 2%);
+    padding-left:20px;
+}
+
+.tm-nav-default .uk-parent > ul > li > a{
+    padding: 10px;
+    background: @global-background;
+    transition: all 0.3s ease-in-out;
+    font-size: @global-font-size;
+}
+
+.tm-nav-default .uk-parent > ul > li > a:hover,
+.tm-nav-default .uk-parent > ul > li.uk-active > a{
+    background: darken(@global-muted-background , 2%);
+    padding-left:20px;
+}
+
+.tm-blog-image{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.uk-comment-title{
+    font-size: 16px;
+}
+
+.uk-subnav > li > a {
+    text-transform: capitalize !important;
+}
+
+.tm-marketplace-image{
+    cursor:pointer;
+    width:100%;
+    height:300px;
+    object-fit: cover;
+}
+
+.tm-marketplace-package-img{
+    width:100%;
+    height:600px;
+    object-fit: cover;
+}
+
+.tm-image-shadow{
+    box-shadow: @global-medium-box-shadow;
+}

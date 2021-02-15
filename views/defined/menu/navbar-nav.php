@@ -1,5 +1,5 @@
 <?php if ($root->getDepth() === 0) : ?>
-    <ul class="uk-navbar-nav">
+    <ul class="uk-navbar-nav uk-visible@m">
 <?php endif; ?>
 
     <?php foreach( $root->getChildren() as $node ): ?>
@@ -14,7 +14,7 @@
 
                 <?php if( $node->getDepth() === 1 ): ?>
                     <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav tm-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
                 <?php endif ?>
 
                 <?= $view->render('defined/menu/navbar-nav.php', ['root' => $node]) ?>
